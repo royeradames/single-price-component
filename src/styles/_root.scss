@@ -1,8 +1,29 @@
 #root{
-    // colors
+    /* colors */
     --color-cyan: #2AB3B1;
     --color-yellow: #C0DF33;
     --color-gray: #9AA7BE;
     --color-white: #E5EFF5;
+
+    /* text */
+    --h1-font-size-bg: 2.4rem;
+    --h1-font-line-bg: -0.03rem;
+    --h1-font-size-sm: 2rem;
+    --h1-font-line-sm: -0.025rem;
+
+    // about us sections stays small
+    // guarantee has a different small font
+    --h2-size: 1.8rem;
+    --h2-line: -0.022rem;
+    --h2-guarantee-font-size-sm: 1.5rem;
+
+    // Monthly always uses big
+    --body-size-bg: 1.6rem;
+    --body-line-bg: 2.6rem;
+    --body-spacing-bg: -0.02rem;
+
+    --body-size-sm: 1.4rem;
+    --body-line-sm: 20rem;
+    --body-spacing-sm: -0.017rem;
 
 }
