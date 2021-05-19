@@ -26,7 +26,7 @@ function App() {
       <article className="us">
         <div className="us__container">
           <h2 className="h2 us__title">Why Us</h2>
-          <ul className="us__body">
+          <ul className="body us__body">
             <li>Tutorials by industry experts</li>
             <li>Peer &amp; expert code review</li>
             <li>Coding exercises</li>
