@@ -5,7 +5,7 @@ function App() {
   return (
     <main className="price">
       <article className="guarantee">
-        <h1 className="guarantee__title">Join our community</h1>
+        <h1 className="h1 guarantee__title">Join our community</h1>
         <h2 className="h2 guarantee__guarantee">
           30-day, hassle-free money back guarantee
         </h2>
