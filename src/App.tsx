@@ -23,20 +23,21 @@ function App() {
             <span className="subscription__cost--length">per month</span>
           </p>
           <button className="subscription__sign-up">Sign Up</button>
-        </article>
-        <article className="us">
-          <div className="us__container">
-            <h2 className="h2 us__title">Why Us</h2>
-            <ul className="body us__body">
-              <li>Tutorials by industry experts</li>
-              <li>Peer &amp; expert code review</li>
-              <li>Coding exercises</li>
-              <li>Access to our GitHub repos</li>
-              <li>Community forum</li>
-              <li>Flashcard decks</li>
-              <li>New videos every week</li>
-            </ul>
-          </div>
+
+          <article className="us">
+            <div className="us__container">
+              <h2 className="h2 us__title">Why Us</h2>
+              <ul className="body us__body">
+                <li>Tutorials by industry experts</li>
+                <li>Peer &amp; expert code review</li>
+                <li>Coding exercises</li>
+                <li>Access to our GitHub repos</li>
+                <li>Community forum</li>
+                <li>Flashcard decks</li>
+                <li>New videos every week</li>
+              </ul>
+            </div>
+          </article>
         </article>
       </div>
     </main>
