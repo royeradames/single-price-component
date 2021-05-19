@@ -4,7 +4,7 @@ import "./styles/main.scss";
 function App() {
   return (
     <main className="price">
-      <div className="h1__container">
+      <div className="main-title__container">
         <h1 className="h1 main-title">Join our community</h1>
       </div>
       <article className="guarantee">
