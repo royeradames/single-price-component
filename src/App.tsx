@@ -22,6 +22,9 @@ function App() {
             <span className="subscription__cost--price">$29</span>
             <span className="subscription__cost--length">per month</span>
           </p>
+          <p className="body subscription__body">
+            Full access for less than $1 a day
+          </p>
           <button className="subscription__sign-up">Sign Up</button>
 
           <article className="us">
