@@ -13,5 +13,13 @@ $bg: 1440px;
 }
 
 .body{
-    
+    font-size: var(--body-size-sm);
+    line-height: var(--body-line-sm);
+    letter-spacing: var(--body-spacing-sm);
+
+    @media(min-width: $bg){
+        font-size: var(--body-size-bg);
+        line-height: var(--body-line-bg);
+        letter-spacing: var(--body-spacing-bg);
+    }
 }
