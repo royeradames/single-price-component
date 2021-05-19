@@ -4,9 +4,11 @@ import "./styles/main.scss";
 function App() {
   return (
     <main className="price">
+      <div className="h1__container">
+        <h1 className="h1 main-title">Join our community</h1>
+      </div>
       <article className="guarantee">
-        <h1 className="h1 guarantee__title">Join our community</h1>
-        <h2 className="h2 guarantee__guarantee">
+        <h2 className="h2 guarantee__title">
           30-day, hassle-free money back guarantee
         </h2>
         <p className="body guarantee__body">
