@@ -1,0 +1,16 @@
+$bg: 1440px;
+.h1{
+    font-size: var(--h1-font-size-sm);
+    line-height: var(--h1-font-line-sm);
+    @media(min-width: $bg){
+        font-size: var(--h1-font-size-bg);
+        line-height: var(--h1-font-line-bg);
+    }
+}
+.h2{
+
+}
+
+.body{
+
+}
