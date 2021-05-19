@@ -1,0 +1,23 @@
+.subscription{
+    background-color: var(--color-cyan);
+    &__cost{
+        &--price{
+            color: white;
+            font-size: 3.2rem;
+            font-weight: bold;
+        }
+        &--cost{
+            font-size: var(--body-size-bg);
+            line-height: var(--body-line-bg);
+            letter-spacing: var(--body-spacing-bg);
+
+        }
+    }
+    &__btn{
+        border: none;
+        background-color: var(--color-yellow);
+        color: white;
+        padding: 1.5rem 10.2rem;
+        border-radius: .5rem;
+    }
+}
