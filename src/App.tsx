@@ -28,7 +28,7 @@ function App() {
             <p className="body subscription__body">
               Full access for less than $1 a day
             </p>
-            <button className="subscription__sign-up">Sign Up</button>
+            <button className="subscription__btn">Sign Up</button>
           </div>
         </article>
         <article className="us">
