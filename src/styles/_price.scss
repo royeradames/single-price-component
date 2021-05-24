@@ -10,8 +10,9 @@
     justify-content: center;
 
     &__container{
-        box-shadow: 0 1.5rem 3rem 0 rgb(0, 81, 171, 0.1488);
+        box-shadow: 0 1.5rem 3rem 0 rgb(0, 81, 171, 14.88%);
         background-color: white;
+        border-radius: .5rem;
     }
     &__title{
         color: var(--color-cyan);
