@@ -12,11 +12,11 @@
             font-size: 3.2rem;
             font-weight: bold;
         }
-        &--cost{
+        &--length{
             font-size: var(--body-size-bg);
             line-height: var(--body-line-bg);
             letter-spacing: var(--body-spacing-bg);
-
+            opacity: 50%;
         }
     }
     &__btn{

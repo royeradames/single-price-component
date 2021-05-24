@@ -22,7 +22,7 @@ function App() {
           <div className="subscription__details">
             <h2 className="h2 subscription__title ">Monthly Subscription</h2>
             <p className="body subscription__cost">
-              <span className="subscription__cost--price">$29</span>
+              <span className="subscription__cost--price">$29 </span>
               <span className="subscription__cost--length">per month</span>
             </p>
             <p className="body subscription__body">
