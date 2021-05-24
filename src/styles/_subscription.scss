@@ -1,6 +1,12 @@
 .subscription{
     background-color: var(--color-cyan);
+    padding: 2.4rem;
+
+    &__details{
+        grid-area: subscription;
+    }
     &__cost{
+        margin: 1.8rem 0 .4rem 0;
         &--price{
             color: white;
             font-size: 3.2rem;
@@ -19,5 +25,6 @@
         color: white;
         padding: 1.5rem 10.2rem;
         border-radius: .5rem;
+        margin-top: 2.6rem;
     }
 }
