@@ -8,20 +8,19 @@ $bg: 1440px;
     }
 }
 .h2{
+    color: white;
     font-size: var(--h2-size);
     line-height: var(--h2-line);
-    color: white;
 }
 
 .body{
-    font-size: var(--body-size-sm);
-    line-height: var(--body-line-sm);
-    letter-spacing: var(--body-spacing-sm);
     color: white;
+    line-height: var(--body-line);
+    font-size: var(--body-size-sm);
+    letter-spacing: var(--body-spacing-sm);
 
     @media(min-width: $bg){
         font-size: var(--body-size-bg);
-        line-height: var(--body-line-bg);
         letter-spacing: var(--body-spacing-bg);
     }
 }
