@@ -5,7 +5,7 @@ function App() {
   return (
     <main className="price">
       <div className="price__container">
-        <div className="white-article">
+        <div className="price__white-article">
           <h1 className="h1 price__title">Join our community</h1>
           <article className="guarantee">
             <h2 className="h2 guarantee__title">

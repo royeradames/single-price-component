@@ -15,6 +15,11 @@
     }
     &__title{
         color: var(--color-cyan);
+        font-weight: bold;
+    }
+    &__white-article{
+        // h1 and gurantee article
+        margin: 2.8rem 2.4rem 3.2rem 2.4rem;
     }
 }
 
