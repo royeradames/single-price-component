@@ -1,10 +1,12 @@
 .us{
+    background-color: var(--color-cyan);
     // have a white see through background
     display: grid;
     grid-template:
         "section" 1fr
         /1fr
     ;
+    
     &::before{
         // see though white div
         content: "";
@@ -14,5 +16,6 @@
     }
     &__container{
         grid-area: section;
+        margin: 2.4rem;
     }
 }
