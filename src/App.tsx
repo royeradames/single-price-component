@@ -19,17 +19,15 @@ function App() {
           </article>
         </div>
         <article className="subscription">
-          <div className="subscription__details">
-            <h2 className="h2 subscription__title ">Monthly Subscription</h2>
-            <p className="body subscription__cost">
-              <span className="subscription__cost--price">$29 </span>
-              <span className="subscription__cost--length">per month</span>
-            </p>
-            <p className="body subscription__body">
-              Full access for less than $1 a day
-            </p>
-            <button className="subscription__btn">Sign Up</button>
-          </div>
+          <h2 className="h2 subscription__title ">Monthly Subscription</h2>
+          <p className="body subscription__cost">
+            <span className="subscription__cost--price">$29 </span>
+            <span className="subscription__cost--length">per month</span>
+          </p>
+          <p className="body subscription__body">
+            Full access for less than $1 a day
+          </p>
+          <button className="subscription__btn">Sign Up</button>
         </article>
         <article className="us">
           <div className="us__container">
