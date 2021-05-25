@@ -6,7 +6,7 @@
         grid-area: subscription;
     }
     &__cost{
-        margin: 1.8rem 0 .4rem 0;
+        margin: 1.8rem 0 0 0;
         &--price{
             color: white;
             font-size: 3.2rem;
@@ -18,6 +18,9 @@
             letter-spacing: var(--body-spacing-bg);
             opacity: 50%;
         }
+    }
+    &__body{
+        font-size: 1.6rem;
     }
     &__btn{
         border: none;
