@@ -15,10 +15,10 @@ $bg: 1440px;
             color: white;
             font-size: 3.2rem;
             font-weight: bold;
+            letter-spacing: -0.04rem;
         }
         &--length{
             font-size: var(--body-size-bg);
-            line-height: var(--body-line-bg);
             letter-spacing: var(--body-spacing-bg);
             opacity: 50%;
         }
@@ -38,5 +38,9 @@ $bg: 1440px;
         font-family: karla, sans-serif;
         letter-spacing: -0.02rem;
         box-shadow: 0 1rem 1rem rgb(0, 0, 0, 9.73%);
+
+        @media(min-width: $bg){
+            padding: 1.5rem 8.4rem 1.4rem 8.4rem;
+        }
     }
 }
