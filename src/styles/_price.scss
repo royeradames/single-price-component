@@ -43,6 +43,8 @@ $bg: 1440px;
 
         @media(min-width: $bg){
             grid-area: white-article;
+
+            margin: 4rem;
         }
     }
 }

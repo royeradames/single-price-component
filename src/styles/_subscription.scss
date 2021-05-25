@@ -7,6 +7,7 @@ $bg: 1440px;
 
     @media(min-width: $bg){
         grid-area: subscription;
+        padding: 4rem;
     }
     &__cost{
         margin-top: 1.8rem;
