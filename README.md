@@ -29,8 +29,8 @@ Users should be able to:
 ![Desktop view](./readme-assets/desktop-view.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [single-price-component](https://github.com/royeradames/single-price-component)
+- Live Site URL: [royer-adames-single-price-component.vercel.app](https://royer-adames-single-price-component.vercel.app/)
 
 ## My process
 
