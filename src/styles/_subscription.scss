@@ -1,10 +1,10 @@
+$bg: 1440px;
+
 .subscription{
+    
     background-color: var(--color-cyan);
     padding: 2.4rem;
 
-    &__details{
-        grid-area: subscription;
-    }
     &__cost{
         margin: 1.8rem 0 0 0;
         &--price{
