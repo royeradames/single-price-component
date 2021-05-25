@@ -86,10 +86,30 @@ Reducing HTML by using ::before
 }
 ```
 
+Changing opacity from % to decimal so that Vercel renders it correctly:
+```css
+&__body{
+  margin-top: 1.8rem;
+  opacity: 75%;
+  line-height: 2rem;
+}
+&--length{
+  font-size: var(--body-size-bg);
+  letter-spacing: var(--body-spacing-bg);
+  opacity: 50%;
+}
+```
+```css
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+&__body{
+  margin-top: 1.8rem;
+  opacity: .75;
+  line-height: 2rem;
+}
+&--length{
+  font-size: var(--body-size-bg);
+  letter-spacing: var(--body-spacing-bg);
+  opacity: .5;
 }
 ```
 ## Author
