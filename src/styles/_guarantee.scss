@@ -1,8 +1,14 @@
+$bg: 1440px;
+
 .guarantee{
     &__title{
         color: var(--color-yellow);
         margin: 2.4rem 0 1.6rem 0;
         font-size: 1.5rem;
+
+        @media(min-width: $bg){
+            font-size: 1.8rem;
+        }
     }
     &__body{
         color: var(--color-gray);
