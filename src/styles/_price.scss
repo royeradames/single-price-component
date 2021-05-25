@@ -1,18 +1,37 @@
+$bg: 1440px;
+
 .price{
     background-color: var(--color-white);
     min-height: 100vh;
     display: grid;
     grid-template: 
-        72.2rem
+        max-content
         /31.1rem
     ;
     align-content: center;
     justify-content: center;
 
+    @media(min-width: $bg){
+        grid-template:
+            47.5rem
+            /  63.5rem
+        ;
+    }
+
     &__container{
         box-shadow: 0 1.5rem 3rem 0 rgb(0, 81, 171, 14.88%);
         background-color: white;
         border-radius: .5rem;
+        overflow: hidden;
+
+        @media(min-width: $bg){
+            display: grid;
+            grid-template:
+                "white-article white-article" 1fr
+                "subscription us" 1fr
+                / 1fr 1fr
+            ;
+        }
     }
     &__title{
         color: var(--color-cyan);
@@ -21,6 +40,10 @@
     &__white-article{
         // h1 and gurantee article
         margin: 2.8rem 2.4rem 3.2rem 2.4rem;
+
+        @media(min-width: $bg){
+            grid-area: white-article;
+        }
     }
 }
 

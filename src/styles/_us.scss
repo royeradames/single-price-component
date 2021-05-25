@@ -1,4 +1,7 @@
+$bg: 1440px;
+
 .us{
+    
     background-color: var(--color-cyan);
     // have a white see through background
     display: grid;
@@ -7,6 +10,9 @@
         /1fr
     ;
     
+    @media(min-width: $bg){
+        grid-area: us;
+    }
     &::before{
         // see though white div
         content: "";

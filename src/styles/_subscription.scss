@@ -5,6 +5,9 @@ $bg: 1440px;
     background-color: var(--color-cyan);
     padding: 2.4rem;
 
+    @media(min-width: $bg){
+        grid-area: subscription;
+    }
     &__cost{
         margin-top: 1.8rem;
         &--price{
